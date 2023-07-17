@@ -257,6 +257,6 @@ func (sender HTTPSender) determineIfUsingSecrets(ctx interfaces.AppFunctionConte
 
 func (sender HTTPSender) setRetryData(ctx interfaces.AppFunctionContext, exportData []byte) {
 	if sender.persistOnError {
-		ctx.SetRetryData(exportData)
+		ctx.SetRetryData(exportData, "")
 	}
 }
