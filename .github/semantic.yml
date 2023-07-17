@@ -1,0 +1,30 @@
+allowMergeCommits: true
+# Always validate the PR title AND all the commits
+titleAndCommits: true
+types:
+    - feat
+    - fix
+    - docs
+    - style
+    - refactor
+    - perf
+    - test
+    - build
+    - ci
+    - revert
+scopes:
+    - transforms
+    - security
+    - store-forward
+    - configuration
+    - config
+    - sdk
+    - triggers
+    - context
+    - deps
+    - bootstrap
+    - runtime
+    - v2
+    - util
+    - webserver
+    
